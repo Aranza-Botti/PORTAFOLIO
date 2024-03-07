@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <!-- METADATOS -->
+      <meta charset="UTF-8">
+      <meta name="author" content="Aranza Rojas">
+      <meta name="description" content="Portafolio de Desarrollo Web de Aranza Rojas">
+      <meta name="keywords" content="HTML, CSS, JavaScript, React">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- TITULO -->
+      <title>Aranza Rojas | TECHNOLOGIST</title>
+      <!-- FAVICON -->
+      <link rel="icon" type="image/x-icon" href="img/icon.png">
+      <!-- BOOTSTRAP -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <!-- BOOTSTRAP ICONS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> 
+      <!--CSS-->
+      <link href="styles.css" rel="stylesheet">
+      <!-- GOOGLE FONTS (HONK)-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+      <!-- GOOGLE FONTS (BUNGEE)-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&display=swap" rel="stylesheet">
+      <!-- GOOGLE FONTS (RuBIK)-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Honk&family=Inconsolata:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- BARRA DE NAVEGACION -->
+    <nav id="menu" class="navbar navbar-expand-md navbar-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#hero">
+            <img class="img-nav" src="img/icon-white.png" width="50" alt="Logo de la Pagina Web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+
+  <div id="contenido">
+    <!-- SECTION HERO -->
+    <section id="hero" class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-centera align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="img/Profile Picture (1).png" alt="Foto de Perfil">
+        <h1 class="honk-font">Hola, soy Aranza Rojas</h1>
+        <h2>Innovación Tecnológica en Desarrollo de Software</Datag></h2>
+      </div>
+      <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo rubik-mono one-regular">S O B R E &nbsp M Í </h2>
+        <p class="seccion-texto">Soy una desarrolladora web apasionada con experiencia en la creación de sitios dinámicos. Dominio sólido de HTML, CSS y JavaScript, junto con frameworks como Bootstrap. Me especializo en ofrecer experiencias de usuario intuitivas y atractivas. Siempre estoy explorando nuevas tecnologías para mejorar mis habilidades y estar al tanto de las últimas tendencias en desarrollo web.</p>
+      </div>
+    </section>
+
+    <!-- SECCION PROYECTOS -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis Proyectos Recientes</h2>
+      <!-- GALERIA DE PROYECTOS -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- PROYECTO 1 -->
+          <div class="col-12 col-md-6">
+            <div class="proyecto">
+              <img src="img/proyecto 1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>ENCRIPTADOR DE TEXTO</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Aranza-Botti/CHALLENGEONE-ENCRIPTADOR" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="https://aranza-botti.github.io/CHALLENGEONE-ENCRIPTADOR/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- PROYECTO 2 -->
+           <div class="col-12 col-md-6">
+            <div class="proyecto">
+              <img src="img/proyecto 2.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>JUEGO NUMERO SECRETO</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Aranza-Botti/Juego-Secreto-ONE-ALURA-" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="https://aranza-botti.github.io/Juego-Secreto-ONE-ALURA-/" target="_blank" rel="noopener noreferrer"><i class="bi bi-laptop"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>         
+        </div>  
+        <a href="https://github.com/Aranza-Botti" target="_blank" rel="noopener noreferrer"><button type="button" class="btn btn-info">Ver más proyectos <i class="bi bi-arrow-right-circle-fill"></i></button></a>
+    </section>
+
+    <!-- SECCION TESTIMONIOS -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">TESTIMONIOS</h2>
+
+      <!-- CARRUSEL -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/cliente1.svg" alt="foto de gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, ante eu commodo luctus, eros mauris venenatis lectus, ac tincidunt lorem ipsum eget libero.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de Proyectos</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/cliente2.svg" alt="foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, ante eu commodo luctus, eros mauris venenatis lectus, ac tincidunt lorem ipsum eget libero.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de BETA</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="img/cliente3.svg" alt="foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultrices, ante eu commodo luctus, eros mauris venenatis lectus, ac tincidunt lorem ipsum eget libero.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Direcor de ALFA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SECCION DE CONTACTO -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="img/icon-white.png" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Aranza-Botti" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aranzabotti/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Aranza Rojas (2024) &#169;</div>
+    </footer>
+  </div>
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
